@@ -44,7 +44,7 @@ view: corona_case {
 
   measure: count {
     type: count
-    drill_fields: [city]
+    drill_fields: [city, latitude]
   }
 
 }
