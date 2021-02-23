@@ -1,5 +1,5 @@
 connection: "cov19_bigquery_db"
-
+# test
 # include all the views
 include: "/views/**/*.view"
 
