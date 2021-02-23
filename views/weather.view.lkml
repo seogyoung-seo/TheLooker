@@ -62,6 +62,11 @@ view: weather {
     sql: ${TABLE}.province ;;
   }
 
+  dimension: test_number {
+    type: number
+    sql: 1;;
+  }
+
   measure: count {
     type: count
     drill_fields: []
