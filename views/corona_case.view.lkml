@@ -1,5 +1,6 @@
 view: corona_case {
   sql_table_name: `load_test.corona_case`
+
     ;;
 
   dimension: case_id {
@@ -44,7 +45,7 @@ view: corona_case {
 
   measure: count {
     type: count
-    drill_fields: [city, latitude]
+    drill_fields: [city, case_id]
   }
 
 }
