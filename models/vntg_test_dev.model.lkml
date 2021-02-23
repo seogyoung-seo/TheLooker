@@ -2,7 +2,6 @@ connection: "cov19_bigquery_db"
 
 # include all the views
 include: "/views/**/*.view"
-include: "./*.explore"
 
 datagroup: vntg_test_dev_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
@@ -23,7 +22,7 @@ explore: region {}
 
 explore: searchtrend {}
 
-# explore: seoulfloating {}
+explore: seoulfloating {}
 
 explore: time {}
 
